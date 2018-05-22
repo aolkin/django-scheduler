@@ -206,23 +206,23 @@ msgstr "Viikko: %(start)s-%(end)s"
 msgid "Day: %(start)s-%(end)s"
 msgstr "Päivä: %(start)s-%(end)s"
 
-#: .\templates\base.html:16
+#: .\templates\schedule\base.html:16
 msgid "This is a demo of a django-schedule calendar"
 msgstr "Tämä on django-schedule -kalenterin demo"
 
-#: .\templates\base.html:23
+#: .\templates\schedule\base.html:23
 msgid "clear"
 msgstr "pyyhi"
 
-#: .\templates\fullcalendar.html:15
+#: .\templates\schedule\fullcalendar.html:15
 msgid "Add New Session"
 msgstr "Lisää Uusi Sessio"
 
-#: .\templates\fullcalendar_modal.html:9
+#: .\templates\schedule\fullcalendar_modal.html:9
 msgid "Event"
 msgstr "Tapahtuma"
 
-#: .\templates\fullcalendar_modal.html:12
+#: .\templates\schedule\fullcalendar_modal.html:12
 msgid ""
 "Would you like to <span id=\"editordelete\"></span> all occurrences in this "
 "event or just this occurrence?"
@@ -230,65 +230,65 @@ msgstr ""
 "Haluaisitko <span id=\"editordelete\"></span>kaikki tämän tapahtuman "
 "toistokerrat vai vain tämän toistokerran?\v"
 
-#: .\templates\fullcalendar_modal.html:16
+#: .\templates\schedule\fullcalendar_modal.html:16
 msgid "All"
 msgstr "Kaikki"
 
-#: .\templates\fullcalendar_modal.html:20
+#: .\templates\schedule\fullcalendar_modal.html:20
 msgid "This"
 msgstr "Tämä"
 
-#: .\templates\fullcalendar_modal.html:23 .\templates\schedule\_detail.html:41
+#: .\templates\schedule\fullcalendar_modal.html:23 .\templates\schedule\_detail.html:41
 msgid "Close"
 msgstr "Sulje"
 
-#: .\templates\fullcalendar_script.html:32 .\templates\schedule\event.html:25
+#: .\templates\schedule\fullcalendar_script.html:32 .\templates\schedule\event.html:25
 #: .\templates\schedule\occurrence.html:25
 msgid "Edit"
 msgstr "Muokkaa"
 
-#: .\templates\fullcalendar_script.html:49
+#: .\templates\schedule\fullcalendar_script.html:49
 #: .\templates\schedule\cancel_occurrence.html:5
 #: .\templates\schedule\delete_event.html:5 .\templates\schedule\event.html:29
 #: .\templates\schedule\occurrence.html:29
 msgid "Delete"
 msgstr "Poista"
 
-#: .\templates\profiles\schedule.html:4
+#: .\templates\schedule\profiles\schedule.html:4
 msgid "Schedule"
 msgstr "Aikataulu"
 
-#: .\templates\profiles\schedule.html:12
+#: .\templates\schedule\profiles\schedule.html:12
 msgid "Start"
 msgstr "Alku"
 
-#: .\templates\profiles\schedule.html:13
+#: .\templates\schedule\profiles\schedule.html:13
 msgid "End"
 msgstr "Loppu"
 
-#: .\templates\profiles\schedule.html:14
+#: .\templates\schedule\profiles\schedule.html:14
 msgid "Title"
 msgstr "Otsikko"
 
-#: .\templates\profiles\schedule.html:26 .\templates\profiles\schedule.html:27
+#: .\templates\schedule\profiles\schedule.html:26 .\templates\schedule\profiles\schedule.html:27
 msgid "Event details"
 msgstr "Tapahtuman tiedot"
 
-#: .\templates\profiles\schedule.html:30 .\templates\profiles\schedule.html:31
+#: .\templates\schedule\profiles\schedule.html:30 .\templates\schedule\profiles\schedule.html:31
 msgid "Edit event"
 msgstr "Muokkaa tapahtumaa"
 
-#: .\templates\profiles\schedule.html:33 .\templates\profiles\schedule.html:34
+#: .\templates\schedule\profiles\schedule.html:33 .\templates\schedule\profiles\schedule.html:34
 msgid "Delete event"
 msgstr "Poista tapahtuma"
 
-#: .\templates\profiles\schedule.html:45
+#: .\templates\schedule\profiles\schedule.html:45
 #, python-format
 msgid "You haven't added any <a href=\"%(add_event_url)s\">event</a> yet."
 msgstr ""
 "Et ole lisännyt yhtään <a href=\"%(add_event_url)s\"> tapahtumaa</a> vielä."
 
-#: .\templates\profiles\schedule.html:49
+#: .\templates\schedule\profiles\schedule.html:49
 msgid "Add event"
 msgstr "Lisää tapahtuma"
 

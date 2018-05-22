@@ -205,58 +205,58 @@ msgstr "Semana: %(start)s-%(end)s"
 msgid "Day: %(start)s-%(end)s"
 msgstr "Dia: %(start)s-%(end)s"
 
-#: .\templates\base.html:12
+#: .\templates\schedule\base.html:12
 msgid "Create a Calendar"
 msgstr "Criar um calendário"
 
-#: .\templates\base.html:13
+#: .\templates\schedule\base.html:13
 msgid "Your Calendars"
 msgstr "Seus calendários"
 
-#: .\templates\base.html:16
+#: .\templates\schedule\base.html:16
 msgid "All Calendars"
 msgstr "Todos os calendários"
 
-#: .\templates\fullcalendar.html:4
+#: .\templates\schedule\fullcalendar.html:4
 msgid "Fullcalendar"
 msgstr "Calendário completo"
 
-#: .\templates\profiles\schedule.html:4
+#: .\templates\schedule\profiles\schedule.html:4
 msgid "Schedule"
 msgstr "Cronograma"
 
-#: .\templates\profiles\schedule.html:12
+#: .\templates\schedule\profiles\schedule.html:12
 msgid "Start"
 msgstr "Início"
 
-#: .\templates\profiles\schedule.html:13
+#: .\templates\schedule\profiles\schedule.html:13
 msgid "End"
 msgstr "Término"
 
-#: .\templates\profiles\schedule.html:14
+#: .\templates\schedule\profiles\schedule.html:14
 msgid "Title"
 msgstr "Título"
 
-#: .\templates\profiles\schedule.html:26 .\templates\profiles\schedule.html:27
+#: .\templates\schedule\profiles\schedule.html:26 .\templates\schedule\profiles\schedule.html:27
 msgid "Event details"
 msgstr "Detalhes do evento"
 
-#: .\templates\profiles\schedule.html:30 .\templates\profiles\schedule.html:31
+#: .\templates\schedule\profiles\schedule.html:30 .\templates\schedule\profiles\schedule.html:31
 msgid "Edit event"
 msgstr "Editar evento"
 
-#: .\templates\profiles\schedule.html:33 .\templates\profiles\schedule.html:34
+#: .\templates\schedule\profiles\schedule.html:33 .\templates\schedule\profiles\schedule.html:34
 msgid "Delete event"
 msgstr "Deletar evento"
 
-#: .\templates\profiles\schedule.html:45
+#: .\templates\schedule\profiles\schedule.html:45
 #, python-format
 msgid "You haven't added any <a href=\"%(add_event_url)s\">event</a> yet."
 msgstr ""
 "Você não adicionou qualquer evento <a href=\"%(add_event_url)s\">evento</a> "
 "ainda."
 
-#: .\templates\profiles\schedule.html:49
+#: .\templates\schedule\profiles\schedule.html:49
 msgid "Add event"
 msgstr "Adicionar evento"
 

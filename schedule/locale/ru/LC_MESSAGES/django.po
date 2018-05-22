@@ -213,40 +213,40 @@ msgstr "правила"
 msgid "clear"
 msgstr "очистить"
 
-#: templates/profiles/schedule.html:4
+#: templates/schedule/profiles/schedule.html:4
 msgid "Schedule"
 msgstr "Расписание"
 
-#: templates/profiles/schedule.html:12
+#: templates/schedule/profiles/schedule.html:12
 msgid "Start"
 msgstr "Начало"
 
-#: templates/profiles/schedule.html:13
+#: templates/schedule/profiles/schedule.html:13
 msgid "End"
 msgstr "Окончание"
 
-#: templates/profiles/schedule.html:14
+#: templates/schedule/profiles/schedule.html:14
 msgid "Title"
 msgstr "Заголовок"
 
-#: templates/profiles/schedule.html:26 templates/profiles/schedule.html:27
+#: templates/schedule/profiles/schedule.html:26 templates/schedule/profiles/schedule.html:27
 msgid "Event details"
 msgstr "Детали события"
 
-#: templates/profiles/schedule.html:30 templates/profiles/schedule.html:31
+#: templates/schedule/profiles/schedule.html:30 templates/schedule/profiles/schedule.html:31
 msgid "Edit event"
 msgstr "Изменить событие"
 
-#: templates/profiles/schedule.html:33 templates/profiles/schedule.html:34
+#: templates/schedule/profiles/schedule.html:33 templates/schedule/profiles/schedule.html:34
 msgid "Delete event"
 msgstr "Удалить событие"
 
-#: templates/profiles/schedule.html:45
+#: templates/schedule/profiles/schedule.html:45
 #, python-format
 msgid "You haven't added any <a href=\"%(add_event_url)s\">event</a> yet."
 msgstr "Вы еще не добавили ни одного <a href=\"%(add_event_url)s\">события</a>."
 
-#: templates/profiles/schedule.html:49
+#: templates/schedule/profiles/schedule.html:49
 msgid "Add event"
 msgstr "Добавить событие"
 

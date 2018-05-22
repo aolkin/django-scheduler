@@ -73,7 +73,7 @@ class CalendarView(CalendarMixin, DetailView):
 
 
 class FullCalendarView(CalendarMixin, DetailView):
-    template_name = "fullcalendar.html"
+    template_name = "schedule/fullcalendar.html"
 
     def get_context_data(self, **kwargs):
         context = super(FullCalendarView, self).get_context_data()

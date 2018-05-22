@@ -208,33 +208,33 @@ msgstr "Semaine : %(start)s-%(end)s"
 msgid "Day: %(start)s-%(end)s"
 msgstr "Jour: %(start)s-%(end)s"
 
-#: templates/base.html:12 templates/schedule/base.html:14
+#: templates/schedule/base.html:12 templates/schedule/base.html:14
 msgid "Create a Calendar"
 msgstr "Créer un calendrier"
 
-#: templates/base.html:13 templates/schedule/base.html:15
+#: templates/schedule/base.html:13 templates/schedule/base.html:15
 #, fuzzy
 #| msgid "calendar"
 msgid "Your Calendars"
 msgstr "Votre calendrier"
 
-#: templates/base.html:16 templates/schedule/base.html:18
+#: templates/schedule/base.html:16 templates/schedule/base.html:18
 #, fuzzy
 #| msgid "calendar"
 msgid "All Calendars"
 msgstr "Tout les calendriers"
 
-#: templates/fullcalendar.html:15
+#: templates/schedule/fullcalendar.html:15
 msgid "Add New Session"
 msgstr "Ajouter une nouvelle session"
 
-#: templates/fullcalendar_modal.html:9
+#: templates/schedule/fullcalendar_modal.html:9
 #, fuzzy
 #| msgid "event"
 msgid "Event"
 msgstr "Événement"
 
-#: templates/fullcalendar_modal.html:12
+#: templates/schedule/fullcalendar_modal.html:12
 msgid ""
 "Would you like to <span id=\"editordelete\"></span> all occurrences in this "
 "event or just this occurrence?"
@@ -242,72 +242,72 @@ msgstr ""
 "Voulez-vous <span id=\"editordelete\"></span> toutes les occurrences de cet "
 "événement ou juste cette occurrence?"
 
-#: templates/fullcalendar_modal.html:16
+#: templates/schedule/fullcalendar_modal.html:16
 msgid "All"
 msgstr "Tous"
 
-#: templates/fullcalendar_modal.html:20
+#: templates/schedule/fullcalendar_modal.html:20
 msgid "This"
 msgstr "Ce"
 
-#: templates/fullcalendar_modal.html:23 templates/schedule/_detail.html:41
+#: templates/schedule/fullcalendar_modal.html:23 templates/schedule/_detail.html:41
 msgid "Close"
 msgstr "Fermer"
 
-#: templates/fullcalendar_script.html:32 templates/schedule/event.html:25
+#: templates/schedule/fullcalendar_script.html:32 templates/schedule/event.html:25
 #: templates/schedule/occurrence.html:25
 msgid "Edit"
 msgstr "Éditer"
 
-#: templates/fullcalendar_script.html:49
+#: templates/schedule/fullcalendar_script.html:49
 #: templates/schedule/cancel_occurrence.html:5
 #: templates/schedule/delete_event.html:5 templates/schedule/event.html:29
 #: templates/schedule/occurrence.html:29
 msgid "Delete"
 msgstr "Supprimer"
 
-#: templates/profiles/schedule.html:4
+#: templates/schedule/profiles/schedule.html:4
 msgid "Schedule"
 msgstr "Planifier"
 
-#: templates/profiles/schedule.html:12
+#: templates/schedule/profiles/schedule.html:12
 #, fuzzy
 #| msgid "start"
 msgid "Start"
 msgstr "Début"
 
-#: templates/profiles/schedule.html:13
+#: templates/schedule/profiles/schedule.html:13
 #, fuzzy
 #| msgid "end"
 msgid "End"
 msgstr "Fin"
 
-#: templates/profiles/schedule.html:14
+#: templates/schedule/profiles/schedule.html:14
 #, fuzzy
 #| msgid "title"
 msgid "Title"
 msgstr "Titre"
 
-#: templates/profiles/schedule.html:26 templates/profiles/schedule.html:27
+#: templates/schedule/profiles/schedule.html:26 templates/schedule/profiles/schedule.html:27
 msgid "Event details"
 msgstr "Détails de l'événement"
 
-#: templates/profiles/schedule.html:30 templates/profiles/schedule.html:31
+#: templates/schedule/profiles/schedule.html:30 templates/schedule/profiles/schedule.html:31
 #, fuzzy
 #| msgid "event"
 msgid "Edit event"
 msgstr "Éditer l'événement"
 
-#: templates/profiles/schedule.html:33 templates/profiles/schedule.html:34
+#: templates/schedule/profiles/schedule.html:33 templates/schedule/profiles/schedule.html:34
 msgid "Delete event"
 msgstr "Supprimer l'événement"
 
-#: templates/profiles/schedule.html:45
+#: templates/schedule/profiles/schedule.html:45
 #, python-format
 msgid "You haven't added any <a href=\"%(add_event_url)s\">event</a> yet."
 msgstr "Vous n'avez encore ajouté aucun <a href=\"%(add_event_url)s\">événement</a>."
 
-#: templates/profiles/schedule.html:49
+#: templates/schedule/profiles/schedule.html:49
 #, fuzzy
 #| msgid "event"
 msgid "Add event"

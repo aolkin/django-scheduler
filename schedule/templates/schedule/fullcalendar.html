@@ -1,10 +1,10 @@
-{% extends 'base.html' %}
+{% extends "schedule/base.html" %}
 {% load i18n %}
 
 {% block head_title %}Calendar: {{ object.name }}{% endblock %}
 {% block tab_id %}id='home_tab'{% endblock %}
 {% block extra_head %}
-    {% include "fullcalendar_script.html" %}
+    {% include "schedule/fullcalendar_script.html" %}
 {% endblock %}
 
 {% block body %}
@@ -16,5 +16,5 @@
     <br>
     <div id='calendar'></div>
 
-    {% include "fullcalendar_modal.html" %}
+    {% include "schedule/fullcalendar_modal.html" %}
 {% endblock %}
